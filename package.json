@@ -3,9 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "./src/Main.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node .",
+    "dev": "nodemon ."
   },
   "author": "Asadaaaaa",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "fs-extra": "^11.2.0",
+    "nodemon": "^3.1.0",
+    "telegraf": "^4.16.3"
+  }
 }
